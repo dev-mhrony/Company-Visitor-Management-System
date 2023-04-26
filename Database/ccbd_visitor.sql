@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 26, 2023 at 05:56 PM
+-- Generation Time: Apr 26, 2023 at 06:40 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.30
 
@@ -42,7 +42,7 @@ CREATE TABLE `permissions` (
 
 INSERT INTO `permissions` (`id`, `permission`, `createuser`, `deleteuser`, `createbid`, `updatebid`) VALUES
 (1, 'Superuser', '1', '1', '1', '1'),
-(2, 'Admin', '1', '1', '1', '1'),
+(2, 'Admin', '1', NULL, '1', '1'),
 (3, 'User', NULL, NULL, '1', '1');
 
 -- --------------------------------------------------------
@@ -71,7 +71,7 @@ CREATE TABLE `tbladmin` (
 --
 
 INSERT INTO `tbladmin` (`ID`, `Staffid`, `AdminName`, `UserName`, `FirstName`, `LastName`, `MobileNumber`, `Email`, `Status`, `Photo`, `Password`, `AdminRegdate`) VALUES
-(2, 'C001', 'Admin', 'ccbd', 'Code Camp', 'BD ', 8801608445456, 'codecampbdofficial@gmail.com', 1, '03.webp', '74163f089953fb398d3d5ece038a2613', '2020-07-21 10:18:39');
+(2, 'C001', 'Admin', 'admin', 'MH', 'RONY', 8801608445456, 'codecampbdofficial@gmail.com', 1, '03.webp', '81dc9bdb52d04dc20036dbd8313ed055', '2020-07-21 10:18:39');
 
 -- --------------------------------------------------------
 
@@ -92,6 +92,16 @@ CREATE TABLE `tblvisitor` (
   `remark` varchar(255) DEFAULT NULL,
   `outtime` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tblvisitor`
+--
+
+INSERT INTO `tblvisitor` (`ID`, `FullName`, `Email`, `MobileNumber`, `Address`, `WhomtoMeet`, `Deptartment`, `ReasontoMeet`, `EnterDate`, `remark`, `outtime`) VALUES
+(15, 'John Simith', 'john@gmail.com', 123456789, 'Luthuli Avenue', 'Manager', 'ICT', 'project representation', '2021-07-20 22:17:40', NULL, NULL),
+(16, 'Don Williams', 'williams@gmail.com', 770546888, 'Kampala Road', 'CEO', 'Finance', 'Payments', '2021-07-20 22:18:59', NULL, NULL),
+(17, 'Andrea Gloria', 'gloria@gmail.com', 770546666, 'California', 'Manager', 'ICT', 'project representation', '2021-07-20 22:20:03', 'Representation done', '2021-07-20 22:20:58'),
+(18, 'Gerald Morgan', 'gerald@gmail.com', 770546590, 'New York', 'Manager', 'ICT', 'To do System updates', '2021-07-20 22:27:44', NULL, NULL);
 
 --
 -- Indexes for dumped tables
@@ -129,13 +139,13 @@ ALTER TABLE `permissions`
 -- AUTO_INCREMENT for table `tbladmin`
 --
 ALTER TABLE `tbladmin`
-  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 
 --
 -- AUTO_INCREMENT for table `tblvisitor`
 --
 ALTER TABLE `tblvisitor`
-  MODIFY `ID` int(5) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
