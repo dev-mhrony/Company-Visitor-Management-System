@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 26, 2023 at 06:40 PM
+-- Generation Time: Apr 26, 2023 at 07:02 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.30
 
@@ -71,7 +71,7 @@ CREATE TABLE `tbladmin` (
 --
 
 INSERT INTO `tbladmin` (`ID`, `Staffid`, `AdminName`, `UserName`, `FirstName`, `LastName`, `MobileNumber`, `Email`, `Status`, `Photo`, `Password`, `AdminRegdate`) VALUES
-(2, 'C001', 'Admin', 'admin', 'MH', 'RONY', 8801608445456, 'codecampbdofficial@gmail.com', 1, '03.webp', '81dc9bdb52d04dc20036dbd8313ed055', '2020-07-21 10:18:39');
+(2, 'C001', 'Admin', 'ccbd', 'MH', 'RONY ', 8801608445456, 'codecampbdofficial@gmail.com', 1, '03.webp', '4eaa7887cbe6bfc50a9affe59f199d7c', '2020-07-21 10:18:39');
 
 -- --------------------------------------------------------
 
