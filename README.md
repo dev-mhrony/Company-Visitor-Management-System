@@ -39,4 +39,4 @@ How to run the Company Visitors Management System (Code Camp BD - Visitor Manage
 ### Preview
 
  - Login Info
-    <img src="screen/login.png">
+    <img src="screen/login_page.png">
