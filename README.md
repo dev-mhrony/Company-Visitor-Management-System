@@ -35,3 +35,8 @@ How to run the Company Visitors Management System (Code Camp BD - Visitor Manage
 ### Admin Login Info
  - User Name : ccbd
  - Password  : <a href = "#">Watch This Full Video</a>
+
+### Preview
+
+ - Login Info
+    <img src="screen/login.png">
