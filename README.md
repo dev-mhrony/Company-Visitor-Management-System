@@ -48,3 +48,15 @@ How to run the Company Visitors Management System (Code Camp BD - Visitor Manage
 
  - New Visitor
     <img src="screen/new_visitor.png">
+
+ - Manage Visitor
+    <img src="screen/manage_visitor.png">
+
+ - Manage Visitor
+    <img src="screen/application_user.png">
+
+ - User Permision
+    <img src="screen/user_permision.png">
+
+ - Report
+    <img src="screen/report_user.png">
