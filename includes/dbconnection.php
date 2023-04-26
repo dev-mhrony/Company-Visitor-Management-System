@@ -3,7 +3,7 @@
 define('DB_HOST','localhost');
 define('DB_USER','root');
 define('DB_PASS','');
-define('DB_NAME','cvdb');
+define('DB_NAME','ccbd_visitor');
 // Establish database connection.
 try
 {
