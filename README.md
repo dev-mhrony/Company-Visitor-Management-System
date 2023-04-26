@@ -11,11 +11,11 @@ How to run the Company Visitors Management System (Code Camp BD - Visitor Manage
 
 4. Open PHPMyAdmin (http://localhost/phpmyadmin)
 
-5. Create a database with name cvdb
+5. Create a database with name "ccbd_visitor"
 
 6. Import cvdb.sql file(given inside the zip package in SQL file folder)
 
-7. Run the script http://localhost/company (frontend)
+7. Run the script http://localhost/"Folder Name / Project Name" (frontend)
 
 Credential for admin panel :
 
